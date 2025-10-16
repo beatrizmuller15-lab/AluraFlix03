@@ -1,0 +1,45 @@
+    body{
+        background-color: red;
+        color: black;
+        font-family: "Cambria" serif;
+        margin:0px
+    }
+    h1{
+        
+        color: darkblue;
+        font-size: 50px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+    header{
+        border-bottom: solid 3x silver;
+        margin: 2px;
+        padding-bottom: 10px;
+    color: blueviolet;
+     }
+     .chamada{
+        background: rgb(64, 213, 198);
+        padding-bottom: 80px;
+        padding-top: 80px;
+        display:flex;
+        justify-content: center;
+     }
+     .chamada-texto{
+        margin-right: 8%;
+
+     }
+     img{
+        height: 200px
+     }
+     .categoria-videos{
+        display:flex;
+        overflow-x: auto;
+        gap: 15px;
+
+     }
+     .categoria{
+        padding-left: 20px;
+        padding-right: 20px;
+     }
