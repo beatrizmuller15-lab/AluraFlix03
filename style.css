@@ -37,7 +37,15 @@
         display:flex;
         overflow-x: auto;
         gap: 15px;
-
+        padding: 20px;
+        scroll-behavior: smooth;
+     }
+     .categoria-videos;::-webkit-scrollbar{
+      height: 8px;
+     }
+     .categoria-videos::-webkit-scrollbar-thumb {
+      background-color: blue;
+      border-radius: 4px;
      }
      .categoria{
         padding-left: 20px;
